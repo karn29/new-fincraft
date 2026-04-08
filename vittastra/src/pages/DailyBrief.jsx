@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
-import { useNavigate, ArrowLeft } from 'lucide-react'
+import { ArrowLeft } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
 
 const dailyBriefs = [
   {

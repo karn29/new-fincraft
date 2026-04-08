@@ -1,4 +1,5 @@
-import { useNavigate, ArrowLeft } from 'lucide-react'
+import { ArrowLeft } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
 
 export default function InvestorReport() {
   const navigate = useNavigate()

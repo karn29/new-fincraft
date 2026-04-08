@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { useNavigate, ArrowLeft, Lock } from 'lucide-react'
+import { ArrowLeft, Lock } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
 import { concepts } from '../data/concepts'
 
 export default function ConceptsVault() {
